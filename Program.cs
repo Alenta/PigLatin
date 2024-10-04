@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Is 153 Narcissistic? " + Narcissistic(153));
+        bouncingBall(3.0, 0.66, 1.5);
     }
     public static string PigIt(string str)
     {
@@ -43,4 +43,20 @@ class Program
         if(result==value) return true;
         else return false;
     }
+
+    public static int bouncingBall(double h, double bounce, double window) {
+		//Mother is at 1.5m
+        //H must be over 0, bounce must be >0-<1, window must be less than H.
+        double reboundHeight = h;
+        int timesOverWindow = 1;
+        if(h<0) return -1;
+        if(bounce <= 0 || bounce>=1) return -1;
+        if(window > h) return -1;
+        while(reboundHeight>window)
+        {
+            reboundHeight *= bounce;
+            if(reboundHeight>window) timesOverWindow+=2;
+        }
+	    return timesOverWindow;
+	}
 }

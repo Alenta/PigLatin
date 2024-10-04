@@ -12,3 +12,4 @@ C:\Users\marti\OneDrive\Skrivebord\Kodehode\C#\CodeWars\Random Tasks\PigLatin\ob
 C:\Users\marti\OneDrive\Skrivebord\Kodehode\C#\CodeWars\Random Tasks\PigLatin\obj\Debug\net8.0\PigLatin.pdb
 C:\Users\marti\OneDrive\Skrivebord\Kodehode\C#\CodeWars\Random Tasks\PigLatin\obj\Debug\net8.0\PigLatin.genruntimeconfig.cache
 C:\Users\marti\OneDrive\Skrivebord\Kodehode\C#\CodeWars\Random Tasks\PigLatin\obj\Debug\net8.0\ref\PigLatin.dll
+C:\Users\marti\OneDrive\Skrivebord\Kodehode\C#\CodeWars\Random Tasks\PigLatin\obj\Debug\net8.0\PigLatin.sourcelink.json
